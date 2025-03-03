@@ -1,4 +1,4 @@
-# Triglyceride-PheWAS
+# Using Mendelian randomization to assess long-term pleiotropic effects of potential novel triglyceride-lowering medications
 
 In the current study, by leveraging two large EHR-based biobanks, we examined genetic variants reported previously in MR studies from 5 TG-lowering target genes and tested their associations with clinical phenotypes.
 
@@ -10,4 +10,8 @@ In the current study, by leveraging two large EHR-based biobanks, we examined ge
 
 **Conclusions:** These results suggest that beyond cardiovascular benefits there may be limited additional benefits, but few deleterious effects, from targeting known TG-associated genes for individuals of EA. However, we found limited information supporting the efficacy or safety of these targets for mitigating cardiovascular risk among AA individuals.
 
-The R codes provided execute
+The included files execute the following within BioVU:
+1) Run_Phewas_EA_cohort: conducts the PheWAS for validated SNPs in the EA BioVU cohort
+2) Run_Phewas_AA_cohort: conducts the PheWAS for validated SNPs in the AA BioVU cohort
+3) Run_Phewas_tissue: conducts the PheWAS for genetically predicted expression in selected tissues for 5 TG-associated genes
+4) GBJ_analysis: conducts the Generalized Berk-Jones analysis for the TG-associated genes
